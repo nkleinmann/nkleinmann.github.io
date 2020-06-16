@@ -23,7 +23,24 @@ h2 {
     font-size: 24px;
 }
 
+main {
+    margin: 1024 auto;
+}
+
+a {
+    color: #5C61F4;
+}
+
 main.container {
-    width: 10w4px;
+    width: 1024px;
     margin: 0 auto;
 }
+
+figure#main-bio, img#bio-image, figure#contact-info {
+    float: left;
+}
+
+figure#main-bio {
+    width=70%;
+}
+
