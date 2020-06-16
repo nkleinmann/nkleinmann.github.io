@@ -34,11 +34,14 @@ a {
 main.container {
     width: 1024px;
     margin: 0 auto;
+    display: flex;
 }
 
+/* 
 figure#main-bio, img#bio-image, figure#contact-info {
     float: left;
 }
+*/
 
 figure#main-bio {
     width=70%;
