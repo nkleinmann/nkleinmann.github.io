@@ -1,2 +1,3 @@
 # nkleinmann.github.io
-Activity for the Bootcamp.
+Nicole Kleinmann's Bio. Created in the UNH Coding Bootcamp.
+
