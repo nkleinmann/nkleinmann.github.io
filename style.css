@@ -54,6 +54,10 @@ header h1 {
     color: #0FABAB;
 }
 
+div.icons {
+    padding: 5px;
+}
+
 /*About Page Image*/
 div img {
     width: 90%;
