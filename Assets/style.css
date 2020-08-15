@@ -57,8 +57,13 @@ div.container {
     background-color: white;
     margin-top: 10px;
 }
+
 h2.project {
     color: grey;
+}
+
+a.btn {
+    height: 40px;
 }
 
 /* Contact and Portfolio Pages Headers
