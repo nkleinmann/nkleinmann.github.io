@@ -3,7 +3,7 @@ Nicole Kleinmann's Bio.
 
 This website has info about and contact info for Nicole Kleinmann and sample projects.  Please reach out if there are any questions via email: nekleinmann@gmail.com
 
-[Link to Portfolio:](https://nkleinmann.github.io/)
+[Link to Portfolio](https://nkleinmann.github.io/)
 
 Technologies used: HTML, CSS and CSS Framework: Bootstrap
 
