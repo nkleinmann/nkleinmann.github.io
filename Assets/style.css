@@ -9,7 +9,6 @@ div.container-fluid {
 }
 
 /*Navigation Bar Text*/
-
 a.nav-text {
     color:#eee;
     font-size: 25px;
@@ -41,35 +40,41 @@ main.container {
 
 
 /*index.html*/
-/*About Me page header*/
 header h1 {
     color: #0FABAB;
+    margin-top: 10px;
 }
 
-div.icons {
-    padding: 5px;
-}
-
-/*About Page Image*/
+/* About Page Image */
 img.float-left {
     width: 90%;
     height: auto;
+    margin-bottom: 10%;
 }
 
-/*Contact and Portfolio Pages Headers*/
+/* Portfolio Section*/
+div.container {
+    background-color: white;
+    margin-top: 10px;
+}
+h2.project {
+    color: grey;
+}
+
+/* Contact and Portfolio Pages Headers
 div h1 {
     color: #0FABAB;
 }
 
 
-/*contact.html*/
+contact.html
 .btn {
     background-color: #0FABAB;
     color: white;
 }
 
 /*portfolio.html*/
-img.card-image {
+/* img.card-image {
     width: 100%;
     height: auto;
     position: relative;
@@ -84,7 +89,7 @@ a.btn {
     background-color: #0FABAB;
     padding: 20px;
     text-align: center;
-}
+} */ 
 
 /* footer for all pages */
 footer {

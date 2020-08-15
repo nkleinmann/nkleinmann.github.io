@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicole Kleinmann's Portfolio</title>
     <!--CSS External Style Sheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--Google Fonts-->
@@ -37,13 +37,13 @@
 
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About &nbsp; | &nbsp;</a>
+                        <a class="nav-link active" href="#AboutMe">About &nbsp; | &nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio &nbsp; | &nbsp;</a>
+                        <a class="nav-link active" href="#Portfolio">Portfolio &nbsp; | &nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="#ContactMe">Contact</a>
                     </li>
                 </ul>
 
@@ -56,31 +56,32 @@
     <!--About Me Main Content-->
     <main class="container">
 
-        <section class="row card mt-3">
-
-            <!--About Me Section-->
+        <!--About Me Section-->
+        <section class="row card mt-3" id="AboutMe">
             <header class="col-12">
                 <h1 class="text-center ml-3">About Me</h1>
             </header>
 
             <hr>
-            <article class="row mt-5">
+            <article class="row mt-5 justify-content-center">
                 <img class="col-sm-12 col-md-6 col-lg-4 float-left" src="./Images/NK-photo.jpg" height="165px"
                     width="200px" alt="Photo of Nicole Kleinmann" />
                 <div class="col-sm-12 col-md-6 col-lg-8">
-                    <p>My name is Nicole Kleinmann and I am currently a Math curriculum and Content Developer at
+                    <p>My name is Nicole Kleinmann and I am currently a Math Curriculum and Content Developer at
                         <a href="https://mathspace.co/us">Mathspace</a>.
                         Prior to working at Mathspace, I was a High School Math and Computer Science teacher for
                         four
                         years.
                         <br /><br />
                         I am passionate about education (specifically math and computer science) and web development
-                        (currently in a UNH Coding Bootcamp). Outside of work I love running and swimming or doing
+                        (currently in a UNH Coding Bootcamp). Outside of work I love running or doing
                         anything outside,
                         playing the piano, and traveling.
                         <br /><br />
-                        Please check out the following Github, Linkedin, and Resume links:
-                        <br />
+                        <!--Start of Contact Info Section-->
+                    <p id="ContactMe"><strong>Contact Info</strong> - Please check out the following Github, Linkedin,
+                        and Resume links:</p>
+                    <br />
                     </p>
                     <div class="row">
                         <div class="col-sm-12 col-md-4 text-center">
@@ -95,62 +96,36 @@
                                     class="far fa-file fa-3x"></i></a>
                         </div>
                     </div>
+                    <!--Enf of Contact Info Section-->
                 </div>
-
             </article>
         </section>
         <!--End About Me Section-->
 
-        <section class="row card mt-3">
-            <header class="col-12">
-                <h1 class="text-center">&nbsp; Portfolio</h1>
-            </header>
-
-            <hr>
+        <!--Start of Portfolio Section-->
+        <div class="container">
+            <section class="row mt-3" id="Portfolio">
+                <header class="col-12">
+                    <h1 class="text-center">&nbsp; Portfolio</h1>
+                </header>
+                <hr>
+            </section>
             <!--Portfolio Content-->
-            <article class="row mt-5">
-                <!--Scratch Game-->
-                <div class="card col-lg-6 col-md-6 col-sm-12">
-                    <img class="card-img img-responsive" src="./Images/Scratch.png" alt="Cat and Mouse Game in Scratch">
-                    <div class="card-img-overlay">
-                        <a href="https://scratch.mit.edu/projects/401119538/" class="btn rounded-0">Scratch Game: Cat
-                            and Mouse</a>
-                    </div>
-                </div>
-                <!--My Bio-->
-                <div class="card col-lg-6 col-md-6 col-sm-12">
-                    <img class="card-img img-responsive" src="./Images/NK-Bio.png" alt="Nicole Kleinmann's Bio">
-                    <div class="card-img-overlay">
-                        <a href="https://nkleinmann.github.io/" class="btn rounded-0">Nicole Kleinmann's Bio</a>
-                    </div>
-                </div>
-                <!--Code refactor-->
-                <div class="card col-lg-6 col-md-6 col-sm-12">
-                    <img class="card-img img-responsive" src="./Images/Code-Refractor.png" alt="Accessible Website">
-                    <div class="card-img-overlay">
-                        <a href="https://github.com/nkleinmann/01-Code-Refractor-NK" class="btn rounded-0">Code
-                            Refactor</a>
-                    </div>
-                </div>
-                <!--Github-->
-                <div class="card col-lg-6 col-md-6 col-sm-12">
-                    <img class="card-img img-responsive" src="./Images/Github.jpg"
-                        alt="Nicole Kleinmann's Github Profile">
-                    <div class="card-img-overlay">
-                        <a href="https://github.com/nkleinmann" class="btn rounded-0">Nicole Kleinmann's Github</a>
-                    </div>
-                </div>
-                <!--Linkedin-->
-                <div class="card col-lg-6 col-md-6 col-sm-12">
-                    <img class="card-img img-responsive" src="./Images/Linkedin.jpg"
-                        alt="Nicole Kleinmann's Linkedin Profile">
-                    <div class="card-img-overlay">
-                        <a href="https://www.linkedin.com/in/nicolekleinmann/" class="btn rounded-0">Nicole Kleinmann's
-                            Linkedin</a>
-                    </div>
-                </div>
-            </article>
-        </section>
+            <div class="row">
+                <h2 class="col-12 project text-center">Photos from Space: Project 1</h2>
+            </div>
+            <div class="row justify-content-center">
+                <a href="https://nkleinmann.github.io/Project-Wilder/" target="_blank"
+                    class="col-sm-5 col-md-3 btn btn-info text-center">Deployed Site</a>
+                <a href="https://github.com/nkleinmann/Project-Wilder" target="_blank"
+                    class="col-sm-5 col-md-3 btn btn-info text-center">Github Repository</a>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <img class="col-6" src="./Images/Space.jpg" alt="Photos from space">
+            </div>
+
+        </div>
+        <!--End of Portfolio Section-->
 
 
     </main>
