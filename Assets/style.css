@@ -26,6 +26,12 @@ a.nav-link {
     font-size: 25px;
     padding: 10px;
 }
+/*End navigation bar links*/
+
+h2.bounce {
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
 
 /*Background Image*/
 body {
@@ -65,36 +71,6 @@ h2.project {
 a.btn {
     height: 40px;
 }
-
-/* Contact and Portfolio Pages Headers
-div h1 {
-    color: #0FABAB;
-}
-
-
-contact.html
-.btn {
-    background-color: #0FABAB;
-    color: white;
-}
-
-/*portfolio.html*/
-/* img.card-image {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-
-a.btn {
-    position: absolute;
-    bottom: 5%;
-    right: 4%;
-    width: 92%;
-    background-color: #0FABAB;
-    padding: 20px;
-    text-align: center;
-} */ 
 
 /* footer for all pages */
 footer {
