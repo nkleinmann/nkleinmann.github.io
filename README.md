@@ -10,4 +10,4 @@ Technologies used: HTML, CSS and CSS Framework: Bootstrap
 Screenshots of Website:
 ![AboutMe](https://user-images.githubusercontent.com/65608809/90304508-adbc3c80-de86-11ea-9114-d1cdf569c374.jpg)
 
-![Portfolio](https://user-images.githubusercontent.com/65608809/90304515-bb71c200-de86-11ea-90e2-1e499be3a746.jpg)
+![portfolio](https://user-images.githubusercontent.com/65608809/90992312-d629f200-e57c-11ea-865e-47abfb270ac2.jpg)
