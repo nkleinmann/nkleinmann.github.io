@@ -9,9 +9,9 @@ div.container-fluid {
 }
 
 /*Navigation Bar Text*/
-a.nav-text {
+h2.welcome {
     color:#eee;
-    font-size: 25px;
+    padding: 10px;
 }
 
 p.text-white.text-center {
