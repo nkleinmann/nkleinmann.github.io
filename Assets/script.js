@@ -10,7 +10,7 @@ $( function() {
     function changesClass() {
         setInterval( () => {
             $nkButton.addClass("bounce");
-        }, 3000);
+        }, 1000);
         $nkButton.removeClass("bounce");
     }
     
