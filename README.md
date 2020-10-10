@@ -1,5 +1,5 @@
 # nkleinmann.github.io
-Nicole Kleinmann's Portfolio. This website has info about and contact info for Nicole Kleinmann as well as sample projects.  
+## Nicole Kleinmann's Portfolio. 
 
 Please reach out if there are any questions or ideas for collaboration via email: nekleinmann@gmail.com
 
